@@ -30,6 +30,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
+    Column (
+        modifier = modifier,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ){}
 
 }
 
